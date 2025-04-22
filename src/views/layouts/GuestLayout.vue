@@ -1,7 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+
 </script>
 
 <template>
-  <RouterView />
+    <header>guest</header>
+    <main>
+
+        <RouterView></RouterView>
+
+    </main>
 </template>
